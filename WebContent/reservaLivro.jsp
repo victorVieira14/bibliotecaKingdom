@@ -37,7 +37,8 @@
                         <div class="h5 text-left" style="font-size: 15px;">
                             <strong> Escolha</strong>
                             <div class="input-group mb-3">
-                                <select name="inforLivro" require="" class="custom-select mt-2" id="inputGroupSelect01">
+                                <select name="inforLivro" class="custom-select mt-2" id="inputGroupSelect01">
+                                    <option selected disabled="" value="Lido"><strong>Informe</strong></option>
                                     <option value="Lido"><strong>Já lí</strong></option>
                                     <option  value=Lendo><strong>Estou lendo</strong></option>
                                     <option  value="Desejo"><strong>Quero ter</strong></option>

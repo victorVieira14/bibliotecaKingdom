@@ -35,7 +35,7 @@
 		    <div class="navbar-nav">
 		      <a class="nav-item nav-link active" href="inicial.jsp">Home <span class="sr-only">(current)</span></a>
 		      <a class="nav-item nav-link active" href="form-addUser.jsp">Cadastro</a>
-		      <a class="nav-item nav-link active" href="livros.jsp">Livros</a>
+		      <a class="nav-item nav-link active" href="livros.jsp">Sinopses</a>
 		      
 		      <a class="nav-item nav-link active" href="reservaLivro.jsp">Reservar</a>
     		  <a class="nav-item nav-link active" href="comprar.jsp">Comprar</a>

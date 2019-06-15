@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"  import="java.sql.*" %>    
+    pageEncoding="UTF-8"  import="java.sql.*" %>     
 <%@ page language="java" import="conexao.Conecta" %>
     
     
@@ -52,7 +52,7 @@
 		<h2 class="featurette-heading text-center"><span><i style="color:#27408B;">Reserve seu livro</i> </span></h2>
 
 			<!-- tabela lidos, ler, quero ter -->	
-			<form  action="alterReserva.jsp" method="post">		
+			<form action="alterReserva.jsp?id=<%out.print(id);%>" method="post">		
 
                 <input type="hidden" required="" id="text" name="id" class="form-control">
                 
@@ -67,7 +67,7 @@
                         <div class="h5 text-left" style="font-size: 15px;">
                             <strong> Escolha</strong>
                             <div class="input-group mb-3">
-                                <select name="inforLivro" value="<% out.print(infor); %>" require="" class="custom-select mt-2" id="inputGroupSelect01">
+                                <select name="inforLivro" value="<% out.print(infor); %>" require="" class="custom-select mt-2" id="inputGroupSelect01">          
                                     <option value="Lido"><strong>Já lí</strong></option>
                                     <option  value=Lendo><strong>Estou lendo</strong></option>
                                     <option  value="Desejo"><strong>Quero ter</strong></option>
