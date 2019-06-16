@@ -1,5 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%
+	
+		String usuario = (String) session.getAttribute("usuario");
+		if(usuario == null){
+
+			response.setStatus(301);
+			response.setHeader( "Location", "inicial.jsp" );
+			response.setHeader( "Connection", "close" );
+
+		}else{
+			out.print("bem vindo, "+ usuario + "<br/>");
+		}
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,7 +74,8 @@
 		      <a class="nav-item nav-link active" href="form-addUser.jsp">Cadastro</a>
 		      <a class="nav-item nav-link active" href="livros.jsp">Sinopses</a>
 		      <a class="nav-item nav-link active" href="reservaLivro.jsp">Reservar</a>
-		      		      <a class="nav-item nav-link active" href="comprar.jsp">Comprar</a>
+   		      <a class="nav-item nav-link active" href="comprar.jsp">Comprar</a>
+   		      <div class=""><a class="nav-item nav-link active" href="logout.jsp">Sair</a></div>
 		    </div>
 		  </div>
 		</nav>

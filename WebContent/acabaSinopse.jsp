@@ -58,7 +58,7 @@
 						<img src="img/assim.jpg" class="responsive-img d-flex mx-auto" width="200" height="300">
 						<figcaption class="figure-caption">
 							<div class="h5 text-left display-5 mt-3" style="color: black;">
-								<b>Assim que acaba</b>
+								<b>É assim que acaba</b>
 							</div>
 							<div class="h5 text-left" style="font-size: 14px;">
 								Colleen Hoover
@@ -77,7 +77,7 @@
 		      
 
 		      <div class="col-md-9 order-md-2">
-			        <h2 class="featurette-heading text-center mb-5"><span><i style="color:#27408B;">Assim que acaba</i> </span></h2>
+			        <h2 class="featurette-heading text-center mb-5"><span><i style="color:#27408B;">É assim que acaba</i> </span></h2>
 			        <p class="lead text-justify text-black" style="font-size: 1.2em;">
 				<b>Um romance sobre a força necessária para fazer as escolhas
 					corretas nas situações mais difíceis. Da autora das séries Slammed
@@ -101,7 +101,7 @@
 					narrativa inesquecível sobre um amor que custa caro demais.</b>
 			</p>
 			        <em class="h5 text-left" style="font-size: 15px;">
-						FicÃ§Ã£o / Literatura Estrangeira / Romance
+						Ficção / Literatura Estrangeira / Romance
 
 
 					</em>

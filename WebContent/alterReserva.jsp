@@ -20,7 +20,7 @@
 			
 			
 			sts.execute();
-			response.sendRedirect("form-alter-reserva.jsp");
+			response.sendRedirect("listaReservas.jsp");
 			
 		}catch (SQLException e){
 			out.print(e);
